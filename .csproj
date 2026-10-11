@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>NetworkMonitorPlugin</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Verweis auf Macro Deck V3 über NuGet (falls verfügbar) oder lokal im Repo -->
+    <PackageReference Include="MacroDeck" Version="3.0.0-beta*" />
+  </ItemGroup>
+
+</Project>
